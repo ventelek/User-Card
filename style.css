@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.card.header {
+    height: 40vh;
+    background-color: blueviolet;
+    background-image: url(./fon.jpg);
+    background-position: center;
+    background-size: cover;
+}
