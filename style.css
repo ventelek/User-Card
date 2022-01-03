@@ -2,10 +2,78 @@
     box-sizing: border-box;
 }
 
-.card.header {
+body {
+    background: rgb(79, 83, 105);
+    background: radial-gradient(
+        circle,
+        rgba(79, 83, 105, 1) 0%,
+        rgba(52, 52, 52, 1) 92%
+    );
+}
+
+.ues-card {
+    max-width: 400px;
+    height: 550px;
+
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-header {
     height: 40vh;
     background-color: blueviolet;
     background-image: url(./fon.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.card-content {
+    text-align: center;
+    padding: 0 50px;
+    height: 60%;
+    /*overflow hidden; */
+}
+.avatar-wrapper {
+    margin: 0 auto
+
+    max-width 150px;
+    min-width: 60px;
+}
+
+.avatar {
+    display: block
+
+    width 100px;
+    min-height: 60px;
+    max-height: 100px;
+    height: 100%;
+
+    border: 5px solid white;
+    border-radius: 50%;
+
+    margin-top: -50%;
+
+    background-color: lightcoral;
+    object-position: top;
+    object-fit: cover;
+}
+
+.card-info {
+    height: 60%;
+    font-family: sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+.card-text {
+    height: 30px;
+    overflow: hidden;
+}
+
+.facebook-icon {
+    fill: indigo;
+}
+
+.card-username {
+    font-size: 1,5em;
 }
